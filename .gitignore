@@ -1,0 +1,10 @@
+*~
+files/apache-cert.pem
+files/apache-chain.pem
+files/apache-key.pem
+files/certificate.cnf
+files/metadata-template.xml
+files/shibboleth2.xml
+files/sp-cert.pem
+files/sp-key.pem
+
