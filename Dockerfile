@@ -28,6 +28,7 @@ COPY files/metadata-template.xml \
      /etc/shibboleth/
 
 COPY files/shibboleth2.xml \
+     files/attribute-map.xml \
      /etc/shibboleth/
 
 RUN cd /etc/shibboleth && \
