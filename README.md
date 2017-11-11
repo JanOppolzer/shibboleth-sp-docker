@@ -8,5 +8,5 @@
 6. Update `files/shibboleth2.xml.example`, at least `entityID`, `<SSO>` and `<MetadataProvider>` and remove `.example` extension.
 7. Run `./certificate.sh` script to generate metadata certificates.
 8. Run `./build.sh` to build a Docker image.
-9. Execute `./run.sh` to run a Docker container with Shibboleth SP.
+9. Execute `./run.sh` to run a Docker container with Shibboleth SP. (By default, port 80 is for HTTP and 443 for HTTPS, but you can specify your own with the following command: `./run.sh 8080 8443`)
 
