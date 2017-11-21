@@ -7,12 +7,14 @@ if [[ -z $1 ]]; then
     echo "No port for HTTP specified, using 80."
 else
     PORT_HTTP=$1
+    echo "Using port ${PORT_HTTP} for HTTP."
 fi
 
 if [[ -z $2 ]]; then
     echo "No port for HTTPS specified, using 443."
 else
     PORT_HTTPS=$2
+    echo "Using port ${PORT_HTTPS} for HTTPS."
 fi
 
 docker container run \
