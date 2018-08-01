@@ -1,4 +1,5 @@
 FROM debian:stretch
+#FROM ubuntu:bionic
 
 MAINTAINER Jan Oppolzer <jan@oppolzer.cz>
 
