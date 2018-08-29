@@ -39,5 +39,5 @@ COPY files/shibd-apache2 \
 
 EXPOSE 80 443
 
-CMD shibd-apache2
+ENTRYPOINT ["/usr/local/sbin/shibd-apache2"]
 
