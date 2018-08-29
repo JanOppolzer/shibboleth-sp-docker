@@ -6,9 +6,7 @@ MAINTAINER Jan Oppolzer <jan@oppolzer.cz>
 RUN apt-get -qq update && \
     apt-get -qq -y --no-install-recommends install \
         apache2 \
-        libapache2-mod-shib2 \
-        vim \
-        less
+        libapache2-mod-shib2
 
 COPY files/apache-cert.pem \
      files/apache-chain.pem \
