@@ -1,6 +1,6 @@
 # Shibboleth SP running in Docker
 
-1. If you prefer Ubuntu 18.04 LTS (Bionic Beaver) instead of Debian 9 Stretch, comment out the first line and uncomment the second line of `Dockerfile`.
+1. If you prefer Ubuntu 18.04 LTS (Bionic Beaver) instead of Debian 10 (Buster), comment out the first line and uncomment the second line of `Dockerfile`.
 2. Copy an _HTTPS_ certificate to `files/apache-cert.pem`.
 3. Copy a certificate's key to `files/apache-key.pem`.
 4. Copy a certificate CA chain to `files/apache-chain.pem`.

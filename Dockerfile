@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM debian:buster-slim
 #FROM ubuntu:bionic
 
 MAINTAINER Jan Oppolzer <jan@oppolzer.cz>
