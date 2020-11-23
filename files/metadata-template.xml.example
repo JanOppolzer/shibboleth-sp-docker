@@ -9,9 +9,9 @@
         <mdui:DisplayName xml:lang="cs">DisplayName v češtině</mdui:DisplayName>
         <mdui:Description xml:lang="en">Service description in English.</mdui:Description>
         <mdui:Description xml:lang="cs">Popis služby v češtině.</mdui:Description>
-        <mdui:InformationURL xml:lang="en">https://host.domain.tld/en</mdui:InformationURL>
-        <mdui:InformationURL xml:lang="cs">https://host.domain.tld/cs</mdui:InformationURL>
-        <mdui:Logo height="100" width="100">https://host.domain.tld/logo.png</mdui:Logo>
+        <mdui:InformationURL xml:lang="en">https://www.example.org/en</mdui:InformationURL>
+        <mdui:InformationURL xml:lang="cs">https://www.example.org/cs</mdui:InformationURL>
+        <mdui:Logo height="100" width="100">https://www.example.org/logo.png</mdui:Logo>
       </mdui:UIInfo>
     </md:Extensions>
  
@@ -27,14 +27,14 @@
     <md:OrganizationName xml:lang="cs">Organizace, z. s. p. o.</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="en">ORGANIZATION</md:OrganizationDisplayName>
     <md:OrganizationDisplayName xml:lang="cs">ORGANIZACE</md:OrganizationDisplayName>
-    <md:OrganizationURL xml:lang="en">https://www.domain.tld/en</md:OrganizationURL>
-    <md:OrganizationURL xml:lang="cs">https://www.domain.tld/cs</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.example.org/en</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.example.org/cs</md:OrganizationURL>
   </md:Organization>
  
   <md:ContactPerson contactType="technical">
     <md:GivenName>John</md:GivenName>
     <md:SurName>Doe</md:SurName>
-    <md:EmailAddress>mailto:john.doe@domain.tld</md:EmailAddress>
+    <md:EmailAddress>mailto:john.doe@example.org</md:EmailAddress>
   </md:ContactPerson>
  
 </md:EntityDescriptor>
